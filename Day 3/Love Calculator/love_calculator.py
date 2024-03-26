@@ -1,8 +1,10 @@
 print("The Love Calculator is calculating your score...")
 name1 = input() # What is your name?
 name2 = input() # What is their name?
+
 # combining names
 combined_names = name1 + name2
+
 # converting to lower case
 lower_names = combined_names.lower()
 t = lower_names.count("t")
