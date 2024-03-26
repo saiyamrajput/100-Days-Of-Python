@@ -1,3 +1,3 @@
 # Treasure Island Conditional Diagram
 
-![Treasure Island Conditional Diagram](Day_3/Treasure_Island/Treasure_Island_Conditional.png)
+![Treasure Island Conditional Diagram](Treasure%20Island%20Conditional.png)
