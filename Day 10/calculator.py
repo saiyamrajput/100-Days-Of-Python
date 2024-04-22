@@ -28,7 +28,7 @@ def calculator():
     print(calculator_art.logo)
 
     #   taking input
-    num1 = int(input("Enter the first number: "))
+    num1 = float(input("Enter the first number: "))
 
     #   printing operators
     print("\nSelect a operator:")
@@ -44,7 +44,7 @@ def calculator():
         #   taking input of the operator
         op = input("\nWhat operation do you want to perform?: ")
         #   taking input of another number
-        num2 = int(input("\nEnter another number: "))
+        num2 = float(input("\nEnter another number: "))
 
         #   checking which operation to perform according to op
         if op == "+":
@@ -54,7 +54,12 @@ def calculator():
         elif op == "*":
             result = mult(num1, num2)
         elif op == "/":
-            result = div(num1, num2)
+            #   checking for 0/0 error
+            if num2 == 0:
+                print("Undefined error: division by 0\n")
+                result = 0
+            else:
+                result = div(num1, num2)
         else:
             print(f"The selected operator '{op}' is invalid")
             exit()
