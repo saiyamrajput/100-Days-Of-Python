@@ -62,11 +62,12 @@ def calculator():
         #   printing result
         print("\nCalculating result...\n")
         print(f"Result: {num1} {op} {num2} = {result}\n")
+
         #   asking user if they want to continue with same result or not
         continue_op = input(f"Do you want to continue calculating with '{result}'?"
                             f"\nIf yes then please type 'yes', otherwise type 'no'"
                             f" to start fresh calculation"
-                            f"\n Or, type anything to exit: \n").lower()
+                            f"\nOr, type anything to exit: \n").lower()
 
         if continue_op == "yes":
             print(f"\nPrevious result value is: {result}")
