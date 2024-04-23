@@ -9,3 +9,4 @@
 - The cards in the list have equal probability of being drawn.
 - Cards are not removed from the deck as they are drawn.
 - The computer is the dealer.
+- The computer keeps drawing cards as long as it has a score less than 17.
