@@ -1,6 +1,6 @@
 #   Instructions
 
-- Read this the code in main.py
+- Read this the code in even_number.py
 - Spot the problems 🐞.
 - Modify the code to fix the program.
 
