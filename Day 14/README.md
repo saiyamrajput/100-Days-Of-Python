@@ -1,0 +1,3 @@
+#   Higher Lower Game
+
+-It's easy to play. You will be shown two instagram account. You simply have to decide whether the second or the first account has higher instagram followers. As you progress, you will be shown new accounts. Choose higher or lower to decide whether it has more followers or less than the previous account. The objective is to get the most right in a row. If you get one wrong, you lose the game.
