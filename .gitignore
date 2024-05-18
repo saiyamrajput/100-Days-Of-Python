@@ -137,3 +137,4 @@ pyrightconfig.json
 
 # user generated
 .idea/
+.DS_Store
