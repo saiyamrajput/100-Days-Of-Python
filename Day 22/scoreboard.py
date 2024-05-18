@@ -30,5 +30,3 @@ class Scoreboard(Turtle):
         """Keep tracks of right user's scoreboard"""
         self.r_score += 1
         self.update_scoreboard()
-
-        
