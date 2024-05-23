@@ -1,6 +1,8 @@
 # import statements
 import smtplib
 import requests
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 
 # enter your own longitude, latitude and API key
 MY_LAT = 43.469860
@@ -38,12 +40,22 @@ for hour in weather_data["list"]:
 
 # informing user by email
 if will_rain:
-    message = "It's going to rain today, bring an umbrella with you."
+    message = "☂️☔It's going to rain today, bring an umbrella with you."
     with smtplib.SMTP("smtp.gmail.com") as connection:
         connection.starttls()
         connection.login(user=my_email, password=my_password)
-        connection.sendmail(from_addr=my_email,
-                            to_addrs="",
-                            msg="Subject: Weather Report\n\nToday's weather "
-                                f"report:\n{message}")
+
+        # sending the mail
+        msg = MIMEMultipart()
+        msg['From'] = my_email
+        msg['To'] = ""
+        msg["Subject"] = "Weather Report"
+
+        # writing mail body
+        body = MIMEText(message, 'plain', 'utf-8')
+
+        # sending mail after attaching body to the email
+        msg.attach(body)
+        connection.send_message(msg)
+
         connection.close()
