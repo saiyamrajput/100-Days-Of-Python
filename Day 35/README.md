@@ -11,7 +11,7 @@
 - The notification will come by via email.
 - You will need to enter you own longitude, latitude and API key to run the code.
 - You will also need to enter your own email address and the added app password provided by the respective gmail service
-  in "my_email" and "my_password" parameters and recipients email id in "to_addrs" parameter.
+  in "my_email" and "my_password" parameters and recipients email id in "msg['To']" parameter.
 
 # Note (Generate API Key)
 
