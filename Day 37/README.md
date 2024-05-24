@@ -12,6 +12,6 @@
 
 # NOTE:
 
-- The data will be stores on the Pixela website (https://pixe.la/).
+- The data will be stored on the Pixela website (https://pixe.la/).
 - You will need to add you own unique Username and Token ID in "USERNAME" and "TOKEN" parameters and your own Graph ID
   in "GRAPH_ID" parameter.
