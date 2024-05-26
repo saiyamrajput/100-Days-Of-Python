@@ -2,7 +2,7 @@
 
 - OOP
 - HTTP Requests
-- Using API to Send Telegram Alerts
+- Using API to Send Email notifications
 - Autofilling dates using strftime function
 
 # Cheap Flight Finder
