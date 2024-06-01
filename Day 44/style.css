@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+div {
+    text-align: center;   
+    color: white;
+    margin-top: 50px;
+}
+
+img {
+    border: 5px solid white;
+}
+
+h1 {
+    font-family: Cambria;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: cursive;
+}
