@@ -139,4 +139,4 @@ pyrightconfig.json
 .idea/
 .DS_Store
 .gitignore
-./Day 46/token.txt
+Day 46/token.txt
