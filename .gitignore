@@ -138,3 +138,5 @@ pyrightconfig.json
 # user generated
 .idea/
 .DS_Store
+.gitignore
+./Day 46/token.txt
