@@ -6,4 +6,8 @@
 
 # Tinder Swiping Bot
 
-- Swipes right on every profile for the user.
+- Swipes right on every profile for the user. (Maximum swipes: 100)
+
+## Note
+
+- If you have Tinder Premium feel free to change the range.
