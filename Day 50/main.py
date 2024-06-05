@@ -14,7 +14,7 @@ chrome_options = webdriver.ChromeOptions()
 chrome_options.add_experimental_option("detach", True)
 
 # connecting to the website
-driver = webdriver.Chrome()
+driver = webdriver.Chrome(options=chrome_options)
 driver.get("http://www.tinder.com")
 
 # logging in
